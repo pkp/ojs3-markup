@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+<!--
+  * @file plugins/generic/markup/locale/en_US/locale.xml
+  *
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Document Markup plugin localization strings for the ar_IQ (Arabic) locale.
+  -->
+<locale name="ar_IQ" full_name="العربية">
+	<message key="plugins.generic.markup.archive.bad_filename">اسم الملف مفقود</message>
+	<message key="plugins.generic.markup.archive.bad_zip">حدث خطأ عند معاملة الملف المضغوط ({$file}): {$error} </message>
+	<message key="plugins.generic.markup.archive.description">ملف الحفظ هذا يحتوي نسخاً محللة ومحولة بصيغ NLM-XML، HTML، و PDF من مؤلَّفك. كما أنه يحتوي كل الصور المصاحبة وبيانات الاقتباس المهيكلة بصيغة BibTeX (من أجل تصديرها إلى قواعد البيانات المرجعية، مثل: Zotero أو Mendeley).</message>
+	<message key="plugins.generic.markup.archive.downloaded">ملقم معلمات المستند. الحالة: RECEIVED FROM SERVER.</message>
+	<message key="plugins.generic.markup.archive.enable">الإضافة الخاصة بمعلمات المستند تتطلب تمكينها.</message>
+	<message key="plugins.generic.markup.archive.is_zip">الملف التكميلي هو مسبقاً بصيغة ملف zip.</message>
+	<message key="plugins.generic.markup.archive.login">لا بد من تسجيل دخولك إلى الموقع للوصول إلى هذا الملف.</message>
+	<message key="plugins.generic.markup.archive.no_access">ليس لديك صلاحية الوصول إلى هذا الملف.</message>
+	<message key="plugins.generic.markup.archive.no_article">المؤلَّف غير موجود.</message>
+	<message key="plugins.generic.markup.archive.no_articleID">"رمز المؤلَّف غير صحيح أو مفقود."</message>
+	<message key="plugins.generic.markup.archive.no_file">ملف غير موجود: ({$file}).</message>
+	<message key="plugins.generic.markup.archive.no_job">رمز عمل غير صحيح: ({$jobId})</message>
+	<message key="plugins.generic.markup.archive.no_journal">لا بد من ربط الالتماس بمجلة.</message>
+	<message key="plugins.generic.markup.archive.no_url">لم تحدد بعد عنوان ملقم المعلمات (إفتراضياً لا بد أن يكون http://pkp-udev.lib.sfu.ca).</message>
+	<message key="plugins.generic.markup.archive.portalSubTitle">حالة المستند</message>
+	<message key="plugins.generic.markup.archive.portalTitle">الإضافة الخاصة بمعلمات المستندات لمشروع المعرفة العامة</message>
+	<message key="plugins.generic.markup.archive.processing">ملقم معلمات المستند. الحالة: PROCESSING...</message>
+	<message key="plugins.generic.markup.archive.status">ملقم معلمات المستند أعاد الرسالة: {$message} </message>
+	<message key="plugins.generic.markup.archive.supp_file_missing">على الرغم من أن القيد التكميلي الخاص بـ "ملفات معلمات المستند" موجود، إلا أن ملفه مفقود.</message>
+	<message key="plugins.generic.markup.archive.supp_missing">المؤلَّف أو القيد التكميلي الخاص بـ "ملفات معلمات المستند" مفقودان. حاول إعادة رفع المؤلَّف لتوليد ملفات المعلمات مجدداً.</message>
+	<message key="plugins.generic.markup.description">عندما يقوم أي من المؤلف، المدقق، أو المحرر برفع نسخة جديدة من الملف (بصيغ DOC/DOCX/ODT)، فإن هذه الوحدة تقوم بتقديمه إلى ملقم معلمات المستند المحدد ضمن الإعدادات. عندها تتلقى الألواح الطباعية المحللة والمنسقة بصيغ XML، HTML و PDF لذلك المؤلَّف.</message>
+	<message key="plugins.generic.markup.displayName">الإضافة الخاصة بمعلمات المستند</message>
+	<message key="plugins.generic.markup.error">خطأ!</message>
+	<message key="plugins.generic.markup.errors.errorMessage">تعذر إحضار نسخ المؤلَّف بصيغتي XML و HTML. الإضافة الخاصة بمعلمات المستند لا بد أن تكون ممكنة فضلاً عن تحديد نمط الاقتباس ضمن إعدادات المجلة.</message>
+	<message key="plugins.generic.markup.optional.cslStyleName">تسمية نمط الاقتباس إختيارية.</message>
+	<message key="plugins.generic.markup.optional.markupHostPass">كلمة المرور إختيارية.</message>
+	<message key="plugins.generic.markup.optional.markupHostUser">اسم المستخدم إختياري.</message>
+	<message key="plugins.generic.markup.optional.reviewVersion">التبديل إلى نسخة التحكيم أمر إختياري.</message>
+	<message key="plugins.generic.markup.required.cslStyle">نمط الاقتباس مطلوب حتماً.</message>
+	<message key="plugins.generic.markup.required.markupHostURL">عنوان الملقم مطلوب حتماً.</message>
+	<message key="plugins.generic.markup.settings">الإعدادات</message>
+	<message key="plugins.generic.markup.settings.cslStyle">إختر نمط الاقتباس (CSL):</message>
+	<message key="plugins.generic.markup.settings.cslStyleSubmitErrorMessage">عنوان ملقم معلمات المستند غير صحيح! لطفاً، أعط عنواناً صحيحاً.</message>
+	<message key="plugins.generic.markup.settings.cslStyleFieldHelp">حدد نمط الاقتباس المفضل للمعلمات.</message>
+	<message key="plugins.generic.markup.settings.cssStyles">ملف الأنماط:</message>
+	<message key="plugins.generic.markup.settings.cssStylesHelp">إن ملف الأنماط الذي بصيغة CSS يؤثر على تصميم المقالات المولدة باستعمال هذه الإضافة. الأنماط الافتراضية تتوفر تلقائياً. بإمكانك استبدالها بنسختك المعدلة عبر استعمال <![CDATA[<a href="{$url}" class="action" target="_blank">مدير الملفات</a>]]></message>
+	<message key="plugins.generic.markup.settings.curlSupport">الدعم الخاص بـ PHP Curl:</message>
+	<message key="plugins.generic.markup.settings.curlSupportHelp">لا بد من تنصيب PHP curl على ملقمك. هذه الإضافة تستعمل curl لإرسال ملفات المؤلَّف إلى خدمة ملقم معلمات المستند لأغراض المعالجة.</message>
+	<message key="plugins.generic.markup.settings.disabled">معطلة</message>
+	<message key="plugins.generic.markup.settings.enabled">ممكنة</message>
+	<message key="plugins.generic.markup.settings.installed">منصبة</message>
+	<message key="plugins.generic.markup.settings.markupHostAccountHelp">رمز المستخدم مطلوب من أجل استعمال خدمة التحويل. يمكنك الحصول على رمزك مجاناً من <![CDATA[<a href="http://pkp-udev.lib.sfu.ca/" target="_blank">خدمة معلمات المستند لمشروع المعرفة العامة</a>]]>.</message>
+	<message key="plugins.generic.markup.settings.markupHostPass">كلمة المرور:</message>
+	<message key="plugins.generic.markup.settings.markupHostURL">ملقم معلمات المستند:</message>
+	<message key="plugins.generic.markup.settings.markupHostURLHelp">ستقوم المجلة باسترجاع المستندات المحولة من عنوان الملقم هذا. عادة، ليس عليك تغيير هذا الإعداد.</message>
+	<message key="plugins.generic.markup.settings.markupHostUser">رمز المستخدم:</message>
+	<message key="plugins.generic.markup.settings.notInstalled">غير منصبة</message>
+	<message key="plugins.generic.markup.settings.pathInfo">مسارات الرابط</message>
+	<message key="plugins.generic.markup.settings.pathInfoHelp">"ممكنة" هو الاختيار الافتراضي إذا كان ملقمك يدعم ذلك. إذا قمت بتغييره إلى "معطلة"، فإن الصور قد تصير مفقودة في النسخ بصيغة HTML من المؤلفات.</message>
+	<message key="plugins.generic.markup.settings.php5Support">PHP 5.x:</message>
+	<message key="plugins.generic.markup.settings.php5SupportHelp">هذه الإضافة تدعم الإصدار PHP 5+.</message>
+	<message key="plugins.generic.markup.settings.saved">تم حفظ الإعدادات!</message>
+	<message key="plugins.generic.markup.settings.zipSupport">وظيفة فك الضغط من PHP:</message>
+	<message key="plugins.generic.markup.settings.zipSupportHelp">لا بد من تنصيب PHP zlib على ملقمك. هذه الإضافة تستعمل zlib لفك ضغط ملفات ملقم معلمات المستند.</message>
+	<message key="plugins.generic.markup.settings.overrideGalley">تخطي اللوح الطباعي:</message>
+	<message key="plugins.generic.markup.settings.overrideGalleyNo">لا تتخطى المستندات</message>
+	<message key="plugins.generic.markup.settings.overrideGalleyYes">تخطى المستندات</message>
+	<message key="plugins.generic.markup.settings.overrideGalleyFieldHelp">فيما لو وجب تخطي المستندات الموجودة سلفاً من الألواح الطباعية أم لا عند رفع تصميم طباعي جديد.</message>
+    <message key="plugins.generic.markup.settings.wantedFormats">صيغ المستند:</message>
+	<message key="plugins.generic.markup.settings.wantedFormatsHelp">إختر صيغ المستندات.</message>
+</locale>
