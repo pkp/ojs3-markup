@@ -4,8 +4,8 @@
 <!--
   * @file plugins/generic/markup/locale/ar_IQ/locale.xml
   *
-  * Copyright (c) 2003-2018 Simon Fraser University
-  * Copyright (c) 2003-2018 John Willinsky
+  * Copyright (c) 2003-2019 Simon Fraser University
+  * Copyright (c) 2003-2019 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Open Typesetting Stack plugin localization strings for the ar_IQ (العربية) locale.
@@ -16,18 +16,34 @@
 	<message key="plugins.generic.markup.archive.enable">الإضافة الخاصة بمعلمات المستند تتطلب تمكينها.</message>
 	<message key="plugins.generic.markup.archive.noArticle">المؤلَّف غير موجود.</message>
 	<message key="plugins.generic.markup.archive.noArticleID">"رمز المؤلَّف غير صحيح أو مفقود."</message>
+	<message key="plugins.generic.markup.archive.noAccessKey">مفتاح الوصول غير صحيح أو مفقود.</message>
 	<message key="plugins.generic.markup.archive.noJournal">لا بد من ربط الالتماس بمجلة.</message>
 	<message key="plugins.generic.markup.description">عندما يقوم أي من المؤلف، المدقق، أو المحرر برفع نسخة جديدة من الملف (بصيغ DOC/DOCX/ODT)، فإن هذه الوحدة تقوم بتقديمه إلى ملقم معلمات المستند المحدد ضمن الإعدادات. عندها تتلقى الألواح الطباعية المحللة والمنسقة بصيغ XML، HTML و PDF لذلك المؤلَّف.</message>
 	<message key="plugins.generic.markup.displayName">الإضافة الخاصة بمعلمات المستند</message>
 	<message key="plugins.generic.markup.required.cslStyle">نمط الاقتباس مطلوب حتماً.</message>
 	<message key="plugins.generic.markup.required.markupHostURL">عنوان الملقم مطلوب حتماً.</message>
+	<message key="plugins.generic.markup.required.markupHostUser">البريد الالكتروني مطلوب حتماً.</message>
+	<message key="plugins.generic.markup.required.markupHostPass">كلمة المرور مطلوبة حتماً.</message>
+	<message key="plugins.generic.markup.required.authType">نمط المصادقة مطلوب حتماً.</message>
+	<message key="plugins.generic.markup.required.wantedFormats">لا بد من اختيار تنسيق واحد على الأقل.</message>
 	<message key="plugins.generic.markup.settings">الإعدادات</message>
 	<message key="plugins.generic.markup.settings.cslStyle">إختر نمط الاقتباس (CSL):</message>
 	<message key="plugins.generic.markup.settings.cslStyleFieldHelp">حدد نمط الاقتباس المفضل للمعلمات.</message>
 	<message key="plugins.generic.markup.settings.disabled">معطلة</message>
 	<message key="plugins.generic.markup.settings.enabled">ممكنة</message>
 	<message key="plugins.generic.markup.settings.installed">منصبة</message>
-	<message key="plugins.generic.markup.settings.markupHostAccountHelp">رمز المستخدم مطلوب من أجل استعمال خدمة التحويل. يمكنك الحصول على رمزك مجاناً من <![CDATA[<a href="http://pkp-udev.lib.sfu.ca/" target="_blank">خدمة معلمات المستند لمشروع المعرفة العامة</a>]]>.</message>
+	<message key="plugins.generic.markup.settings.markupHostAccountHelp"><![CDATA[<p><strong>إضافة Open Typesetting Stack لمشروع المعرفة العامة (Beta)</strong></p>
+
+<p>شكراً على اهتمامك بـ OTS! هذه الخدمة وما يرتبط بها من إضافة ضمن نظام المجلات المفتوحة، كلاهما في مرحلة التطوير، ولهذا ينبغي الأخذ بعين الاعتبار سقف التوقعات بشأن الاعتمادية والتوفرية والدقة. إن عنوان البريد الالكتروني لهذه الخدمة مع رمز واجهة برمجة التطبيق مطلوبان لاستعمالها. يمكنك التسجيل للحصول على <strong>استعراض</strong> يوضح أداء هذه الخدمة <a href="https://pkp-xml-demo.lib.sfu.ca/" target="_blank">هنا</a>. للحصول على أخبار بشأن خطط المستقبل والخدمات المصاحبة للتشغيل الفعلي، لطفاً، تابع <a href="https://pkp.sfu.ca/category/news/" target=_blank">مدونة مشروع المعرفة العامة</a>، أو تابع المستجدات في <a href="https://forum.pkp.sfu.ca" target="_blank">منتدى الدعم لمشروع المعرفة العامة</a>. 
+
+<p><strong>المشاكل:</strong> نحن نرحب بأي إبلاغات عن مشاكل ومطالبة بمزايا جديدة عبر القنوات الآتية (لطفاً، إبحث عن المشاكل أو الطلبات المماثلة قبل مراسلتنا لتقليل التكرارات في المواضيع):</p>
+
+<ul>
+	<li><a href="https://github.com/pkp/ojs3-markup/issues" target="_blank">مشاكل إضافات نظام المجلات المفتوحة</a></li>
+	<li><a href="https://github.com/pkp/xmlps/issues" target="_blank"">مشاكل خدمة OTS</a></li>
+</ul>
+
+<p><strong>المحاذير:</strong> إن خدمة Open Typesetting Stack (OTS) وما يرتبط بها من إضافات في مشروع المعرفة العامة لا تزال خاضعة للتطوير النشط، ولقد تم إطلاقها بصفة التجريب لأغراض الفحص وتقصي ردود الأفعال من المستخدمين. هي الآن متاحة على أساس 'كما هو، حيث هو' بدون ضمانات بشأن استقرارها تحت أي نمط تشغيل معين. بمساعدة مستخدمي هذا الإصدار التجريبي، سيصار إلى تعديل هذا النظام المفتوح المصدر مستقبلاً، مع احتفاظ مشروع المعرفة العامة بحق تقرير المنحى أو الشكل الذي ستأخذه هذه الخدمة مستقبلاً. إذا كنت مهتماً بالحصول على هذه الخدمة بدون أية قيود، أو على استعداد للحصول على دعم مدفوع الثمن لتشغيلها، لطفاً، راسلنا على العنوان <a href="mailto:pkp.contact@gmail.com">pkp.contact@gmail.com</a>.</p>]]></message>
 	<message key="plugins.generic.markup.settings.markupHostPass">كلمة المرور:</message>
 	<message key="plugins.generic.markup.settings.markupHostURL">ملقم معلمات المستند:</message>
 	<message key="plugins.generic.markup.settings.markupHostURLHelp">ستقوم المجلة باسترجاع المستندات المحولة من عنوان الملقم هذا. عادة، ليس عليك تغيير هذا الإعداد.</message>
@@ -36,4 +52,55 @@
 	<message key="plugins.generic.markup.settings.saved">تم حفظ الإعدادات!</message>
 	<message key="plugins.generic.markup.settings.wantedFormats">صيغ المستند:</message>
 	<message key="plugins.generic.markup.settings.wantedFormatsHelp">إختر صيغ المستندات.</message>
+	<message key="plugins.generic.markup.settings.wantedFormatsXML">XML</message>
+	<message key="plugins.generic.markup.settings.wantedFormatsPDF">PDF</message>
+	<message key="plugins.generic.markup.settings.wantedFormatsEPUB">EPUB</message>
+	<message key="plugins.generic.markup.job.success">مستندك قد تم تقديمه بنجاح إلى Open Typesetting Stack. تقدم التحويل متاح عبر: {$url}</message>
+	<message key="plugins.generic.markup.settings.authType">نمط المصادقة:</message>
+	<message key="plugins.generic.markup.settings.siteAuthArea">معلومات الولوج للمصادقة على مستوى المجلة:</message>
+	<message key="plugins.generic.markup.settings.userAuthArea">معلومات الولوج في OTS</message>
+	<message key="plugins.generic.markup.settings.authTypeFieldHelp">حدد فيما لو أنك تريد استعمال المصادقة لخدمة OTS على مستوى الموقع أو على مستوى مستخدم معين. المصادقة على مستوى المجلة أبسط، وتسمح لك بمشاركة عنوان بريدي واحد لمستوى الإشراف على خدمة OTS عبر عموم مجلتك. مع ذلك، إذا كانت لديك توقعات بحاجة مؤلفين محددين إلى استعمال خدمة OTS مباشرة (وليس من خلال نظام المجلات المفتوحة) وتريد تجنب أي مشاكل محتملة تتعلق بالتحكيم السري، يمكنك اختيار المصادقة على مستوى المستخدم، الأمر الذي يحتم على أي منهم تحديد عنوانه البريدي الخاص بخدمة OTS ضمن تفضيلات المستخدم في نظام المجلات المفتوحة. معظم الاستعمالات تميل إلى خيار المصادقة على مستوى المجلة.</message>
+	<message key="plugins.generic.markup.settings.authTypeSite">المصادقة على مستوى المجلة</message>
+	<message key="plugins.generic.markup.settings.authTypeUser">المصادقة على مستوى المستخدم</message>
+	<message key="plugins.generic.markup.links.convertToXml">التحويل إلى XML</message>
+	<message key="plugins.generic.markup.links.generateGalley">إنشاء ملفات اللوح الطباعي</message>
+	<message key="plugins.generic.markup.links.editWithSubstance">تعديل البنية</message>
+	<message key="plugins.generic.markup.conversion.trigger">إطلاق المهمة</message>
+	<message key="plugins.generic.markup.modal.xmlConversion">تحويل XML</message>
+	<message key="plugins.generic.markup.modal.galleyProduction">إنشاء ملفات اللوح الطباعي</message>
+	<message key="plugins.generic.markup.modal.xmlConversionText">أتريد تأكيد تقديم مهمة OTS ؟</message>
+	<message key="plugins.generic.markup.modal.galleyProductionText">أتريد تأكيد تقديم مهمة OTS ؟</message>
+	<message key="plugins.generic.markup.tab.profile">الولوج إلى OTS</message>
+	<message key="plugins.generic.markup.settings.pluginNotConfigured">إن إضافة OTS لم يتم تهيئتها بعد.</message>
+	<message key="plugins.generic.markup.settings.loginCredsNotAvailable">بيانات الولوج إلى OTS لم يتم تحديدها بعد.</message>
+	<message key="plugins.generic.markup.settings.conversionStages">مراحل سير العمل الممكنة لـ OTS</message>
+	<message key="plugins.generic.markup.settings.conversionStagesHelp">إختر مراحل سير العمل حيث يتوفر تحويل المقالات إلى صيغة XML عبر OTS. قد ترغب بحجب الوصول إلى هذه الخدمة في أوقات معينة إعتماداً على مجريات الانتاج لديك.</message>
+	<message key="plugins.generic.markup.settings.editWithSubstanceStages">مراحل سير العمل لتمكين محرر البنية</message>
+	<message key="plugins.generic.markup.settings.editWithSubstanceStagesHelp">إختر مراحل سير العمل حيث تتم إتاحة محرر بنية XML.</message>
+	<message key="plugins.generic.markup.required.xmlConversionStages">تحويل OTS لا بد من تمكينه في مرحلة واحدة على الأقل.</message>
+	<message key="plugins.generic.markup.required.editWithSubstanceStages">محرر بنية XML لا بد من تمكينه في مرحلة واحدة على الأقل.</message>
+	<message key="plugins.generic.markup.batch">التحويل التراكمي لـ OTS</message>
+	<message key="plugins.generic.markup.batch.trigger-label">إبدأ التحويل</message>
+	<message key="plugins.generic.markup.batch.cancel-label">إلغاء التحويل</message>
+	<message key="plugins.generic.markup.batch.selected-submissions">في هذه الصفحة، يمكنك إجراء التحويل الجماعي للمقالات المنشورة مسبقاً من صيغة PDF أو صيغة مستندات Word إلى تركيبة وسوم المقالة JATS XML باستعمال خدمة Open Typesetting Stack المقدمة من مشروع المعرفة العامة، بدون الحاجة إلى التنقل إلى كل مقالة على حدة. بينما يكون هذا الإجراء غير كافياً بوجه عام للحصول على نتائج مثالية -- حيث أن خدمة Open Typesetting Stack مصممة ليتم استعمالها جنباً إلى جنب مع محرر الملمس الضمني لتحسين نوعية XML -- فإن ذلك سيكون كافياً على الأغلب لتغذية مبادرة الوصول المفتوح بمحتوى مهيكل صالح لأغراض حصاد البيانات. ستقوم خدمة Open Typesetting Stack بإعادة XML المحول إلى مجلتك ضمن مجموعة "الملفات الجاهزة للإنتاج" ولكل مقالة يتم تحويلها هنا. يبقى بإمكانك التنقل إلى كل مقالة بشكل منفرد لتحسين التنسيقات عبر استعمال محرر الملمس بعد إجراء هذا التحويل الجماعي.</message>
+	<message key="plugins.generic.markup.batch-select-file">إختر الملف المراد تحويله</message>
+	<message key="plugins.generic.markup.trigger-conversion">يجري حالياً معالجة طلبك للتحويل.</message>
+	<message key="plugins.generic.markup.cancel-success">أُلغيت عملية التحويل الجماعي بنجاح</message>
+	<message key="plugins.generic.markup.cancel-failure">يتعذر إلغاء التحويل الجماعي</message>
+	<message key="plugins.generic.markup.file-exists">الملف {$file} موجود! التحويل شغال سلفاً؟</message>
+	<message key="plugins.generic.markup.archive-download-failure">يتعذر تنزيل أرشيف التحويل</message>
+	<message key="plugins.generic.markup.archive-extract-failure">تعذر استقطاع أرشيف التحويل</message>
+	<message key="plugins.generic.markup.conversion-running">التحويل الجماعي غير شغال!</message>
+	<message key="plugins.generic.markup.journalList">أدناه قائمة بكل المجلات المستضافة في هذا التنصيب من نظام المجلات المفتوحة:</message>
+	<message key="plugins.generic.markup.invalidJournalPath">مسار المجلة المحدد غير موجود.</message>
+	<message key="plugins.generic.markup.processingSubmissionText">معالجة طلب التقديم: {$submissionTitle}</message>
+	<message key="plugins.generic.markup.otsJobId">مهمة OTS ذات الرقم: {$jobId}</message>
+	<message key="plugins.generic.markup.ojsJobInfoId">معلومات المهمة: {$jobInfoId}</message>
+	<message key="plugins.generic.markup.otsConversionStatus">حالة مهمة OTS => {$conversionStatus}</message>
+	<message key="plugins.generic.markup.batchSummary">{$submissionFoundCount} طلب/طلبات تم العثور عليها و {$submissionProcessedCount} معالجة!</message>
+	<message key="plugins.generic.markup.settings.credsFromConfigNotice">لطفاً، لاحظ بأن هذه الإضافة تستعمل بيانات الولوج المتوافرة في ملف تهيئة نظام المجلات المفتوحة (config.inc.php)</message>
+	<message key="plugins.generic.markup.settings.citationHashFromConfigNotice">لطفاً، لاحظ بأن الإضافة تستعمل نمط الاقتباس الإفتراضي المحدد في ملف تهيئة نظام المجلات المفتوحة (config.inc.php)</message>
+	<message key="plugins.generic.markup.unknownUser">المستخدم "{$adminUser}" المحدد غير موجود.</message>
+	<message key="plugins.generic.markup.missingJournalList">خطأ: هذا الخيار يتطلب وجود قائمة بالمجلات مع الفصل بينها بفارزة إنجليزية</message>
+	<message key="plugins.generic.markup.archive.noUserID">رمز المستخدم غير صحيح أو مفقود.</message>
 </locale>
